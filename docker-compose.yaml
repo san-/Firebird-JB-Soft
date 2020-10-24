@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  firebird:
+    image: "jacobalberty/firebird:2.5.9-ss"
+    volumes: 
+      - "C:\\JBSoftware\\JBCepilW40\\Banco:/firebird/data"
+    ports: 
+      - "3050:3050"
