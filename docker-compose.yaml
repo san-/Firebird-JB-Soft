@@ -4,5 +4,6 @@ services:
     image: "jacobalberty/firebird:2.5.9-ss"
     volumes: 
       - "C:\\JBSoftware\\JBCepilW40\\Banco:/firebird/data"
+      - "C:\\JBSoftware\\JBCepilW40\\Backup:/firebird/Backup"       
     ports: 
       - "3050:3050"
