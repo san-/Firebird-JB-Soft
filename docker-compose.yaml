@@ -7,3 +7,6 @@ services:
       - "C:\\JBSoftware\\JBCepilW40\\Backup:/firebird/Backup"       
     ports: 
       - "3050:3050"
+    environment: 
+      - ISC_PASSWORD=masterkey
+      - TZ=America/Sao_Paulo
